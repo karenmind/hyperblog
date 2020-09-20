@@ -1,0 +1,307 @@
+
+jkaren@RAMOSCC MINGW64 ~
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/jkaren/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+user.name=Karen.Ramos
+user.email=jekarencita@gmail.com
+
+jkaren@RAMOSCC MINGW64 ~
+$ git pull oigin master
+fatal: not a git repository (or any of the parent directories): .git
+
+jkaren@RAMOSCC MINGW64 ~
+$ ls -al
+total 10902
+drwxr-xr-x 1 jkaren 197121       0 Sep 19 17:24  ./
+drwxr-xr-x 1 jkaren 197121       0 Aug 15 22:28  ../
+-rw-r--r-- 1 jkaren 197121    4159 Sep 17 23:12  .bash_history
+-rw-r--r-- 1 jkaren 197121      58 Sep  8 18:37  .gitconfig
+-rw-r--r-- 1 jkaren 197121    6320 Sep 17 22:59  .viminfo
+drwxr-xr-x 1 jkaren 197121       0 Sep  5 17:42  .vscode/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17 '3D Objects'/
+drwxr-xr-x 1 jkaren 197121       0 Aug 15 19:44  AppData/
+lrwxrwxrwx 1 jkaren 197121      29 Aug 15 19:44 'Configuración local' -> /c/Users/jkaren/AppData/Local/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Contacts/
+lrwxrwxrwx 1 jkaren 197121      59 Aug 15 19:44  Cookies -> /c/Users/jkaren/AppData/Local/Microsoft/Windows/INetCookies/
+lrwxrwxrwx 1 jkaren 197121      31 Aug 15 19:44 'Datos de programa' -> /c/Users/jkaren/AppData/Roaming/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Desktop/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Documents/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Downloads/
+lrwxrwxrwx 1 jkaren 197121      67 Aug 15 19:44 'Entorno de red' -> '/c/Users/jkaren/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 jkaren 197121       0 Sep 17 22:59  familia/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Favorites/
+lrwxrwxrwx 1 jkaren 197121      67 Aug 15 19:44  Impresoras -> '/c/Users/jkaren/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 jkaren 197121       0 Sep 19 17:24  IntelGraphicsProfiles/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Links/
+lrwxrwxrwx 1 jkaren 197121      60 Aug 15 19:44 'Menú Inicio' -> '/c/Users/jkaren/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 jkaren 197121      25 Aug 15 19:44 'Mis documentos' -> /c/Users/jkaren/Documents/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Music/
+-rw-r--r-- 1 jkaren 197121 4194304 Sep 17 23:12  NTUSER.DAT
+-rw-r--r-- 1 jkaren 197121 1441792 Aug 15 19:44  ntuser.dat.LOG1
+-rw-r--r-- 1 jkaren 197121 1138688 Aug 15 19:44  ntuser.dat.LOG2
+-rw-r--r-- 1 jkaren 197121 1048576 Sep 19 17:56  NTUSER.DAT{4988c9a4-d43a-11ea-a11a-cfa8726adf79}.TxR.0.regtrans-ms
+-rw-r--r-- 1 jkaren 197121 1048576 Sep 19 17:24  NTUSER.DAT{4988c9a4-d43a-11ea-a11a-cfa8726adf79}.TxR.1.regtrans-ms
+-rw-r--r-- 1 jkaren 197121 1048576 Sep 19 17:24  NTUSER.DAT{4988c9a4-d43a-11ea-a11a-cfa8726adf79}.TxR.2.regtrans-ms
+-rw-r--r-- 1 jkaren 197121   65536 Sep 19 17:56  NTUSER.DAT{4988c9a4-d43a-11ea-a11a-cfa8726adf79}.TxR.blf
+-rw-r--r-- 1 jkaren 197121   65536 Aug 15 20:36  NTUSER.DAT{4988c9a5-d43a-11ea-a11a-cfa8726adf79}.TM.blf
+-rw-r--r-- 1 jkaren 197121  524288 Aug 15 19:44  NTUSER.DAT{4988c9a5-d43a-11ea-a11a-cfa8726adf79}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 jkaren 197121  524288 Aug 15 19:44  NTUSER.DAT{4988c9a5-d43a-11ea-a11a-cfa8726adf79}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 jkaren 197121      20 Aug 15 19:44  ntuser.ini
+drwxr-xr-x 1 jkaren 197121       0 Sep  1 18:03  OneDrive/
+drwxr-xr-x 1 jkaren 197121       0 Aug 15 19:45  OpenVPN/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Pictures/
+lrwxrwxrwx 1 jkaren 197121      59 Aug 15 19:44  Plantillas -> /c/Users/jkaren/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 jkaren 197121       0 Sep  8 17:29  ramos/
+lrwxrwxrwx 1 jkaren 197121      56 Aug 15 19:44  Reciente -> /c/Users/jkaren/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17 'Saved Games'/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Searches/
+lrwxrwxrwx 1 jkaren 197121      56 Aug 15 19:44  SendTo -> /c/Users/jkaren/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 jkaren 197121       0 Sep 13 15:17  Videos/
+
+jkaren@RAMOSCC MINGW64 ~
+$ cd
+
+jkaren@RAMOSCC MINGW64 ~
+$ cd
+
+jkaren@RAMOSCC MINGW64 ~
+$ git config -l
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Users/jkaren/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+user.name=Karen.Ramos
+user.email=jekarencita@gmail.com
+
+jkaren@RAMOSCC MINGW64 ~
+$ git config --global user.email "jekarencita@gmail.com"
+
+jkaren@RAMOSCC MINGW64 ~
+$ pwd
+/c/Users/jkaren
+
+jkaren@RAMOSCC MINGW64 ~
+$
+
+jkaren@RAMOSCC MINGW64 ~
+$ ssh-keygen -t rsa -b 4096 -C "jekarencita@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/jkaren/.ssh/id_rsa):
+Created directory '/c/Users/jkaren/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/jkaren/.ssh/id_rsa
+Your public key has been saved in /c/Users/jkaren/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:nFeyljIH2AZvR5UXWtful9JXOlMevuF+A/S9VsduX4o jekarencita@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|      .   ....o.o|
+|       = .  .o...|
+|      . * o o. . |
+|       + + = . .+|
+|        S * . +*=|
+|         *   o+*X|
+|              ++X|
+|             . B=|
+|            E +o=|
++----[SHA256]-----+
+
+jkaren@RAMOSCC MINGW64 ~
+$ eval $(ssh-agent -s)
+Agent pid 370
+
+jkaren@RAMOSCC MINGW64 ~
+$ ~
+bash: /c/Users/jkaren: Is a directory
+
+jkaren@RAMOSCC MINGW64 ~
+$ cd /
+
+jkaren@RAMOSCC MINGW64 /
+$ cd ~
+
+jkaren@RAMOSCC MINGW64 ~
+$ pwd
+/c/Users/jkaren
+
+jkaren@RAMOSCC MINGW64 ~
+$ cd /
+
+jkaren@RAMOSCC MINGW64 /
+$ cd ~/familia/
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ cd ~/.ssh/
+
+jkaren@RAMOSCC MINGW64 ~/.ssh
+$ ls -al
+total 24
+drwxr-xr-x 1 jkaren 197121    0 Sep 19 18:04 ./
+drwxr-xr-x 1 jkaren 197121    0 Sep 19 18:04 ../
+-rw-r--r-- 1 jkaren 197121 3389 Sep 19 18:04 id_rsa
+-rw-r--r-- 1 jkaren 197121  747 Sep 19 18:24 id_rsa.pub
+
+jkaren@RAMOSCC MINGW64 ~/.ssh
+$ cd
+
+jkaren@RAMOSCC MINGW64 ~
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/jkaren/.ssh/id_rsa (jekarencita@gmail.com)
+
+jkaren@RAMOSCC MINGW64 ~
+$ cd familia/
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git remote -v
+oigin   https://github.com/karenmind/hyperblog.git (fetch)
+oigin   https://github.com/karenmind/hyperblog.git (push)
+origin  https://github.com/karenmind/hyperblog.gi (fetch)
+origin  https://github.com/karenmind/hyperblog.gi (push)
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git remote set -url oigin git@github.com:karenmind/hyperblog.git
+error: Unknown subcommand: set
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git remote set-url oigin git@github.com:karenmind/hyperblog.git
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git remote -v
+oigin   git@github.com:karenmind/hyperblog.git (fetch)
+oigin   git@github.com:karenmind/hyperblog.git (push)
+origin  https://github.com/karenmind/hyperblog.gi (fetch)
+origin  https://github.com/karenmind/hyperblog.gi (push)
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ ls
+ css/  'esta es uma examen.txt'   excel.xls   pdf.pdf   README.md   tmal.html   vacio.txt   word.doc
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ code tmal
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ code tmal.html
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git pull
+remote: Repository not found.
+fatal: repository 'https://github.com/karenmind/hyperblog.gi/' not found
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git remote -v
+oigin   git@github.com:karenmind/hyperblog.git (fetch)
+oigin   git@github.com:karenmind/hyperblog.git (push)
+origin  https://github.com/karenmind/hyperblog.gi (fetch)
+origin  https://github.com/karenmind/hyperblog.gi (push)
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git pull oigin
+The authenticity of host 'github.com (140.82.112.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.112.3' (RSA) to the list of known hosts.
+You asked to pull from the remote 'oigin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git pull oigin master
+Warning: Permanently added the RSA host key for IP address '140.82.113.4' to the list of known hosts.
+From github.com:karenmind/hyperblog
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   tmal.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        excel.xls
+        pdf.pdf
+        vacio.txt
+        word.doc
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git diff
+diff --git a/tmal.html b/tmal.html
+index 739fc2c..80082c7 100644
+--- a/tmal.html
++++ b/tmal.html
+@@ -1,6 +1,6 @@
+ <html>
+     <head>
+-        <title>El titulo del post</title>
++        <title>El titulo del post karen</title>
+         <link rel="stylesheet" href="css/estilos.css" />
+     </head>
+     <body>
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git commit -am "hice cambio en el titulo add karen despues de hacer pull"
+[master 46cb21a] hice cambio en el titulo add karen despues de hacer pull
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git pull oigin master
+Warning: Permanently added the RSA host key for IP address '140.82.113.3' to the list of known hosts.
+From github.com:karenmind/hyperblog
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$ git push oigin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 322 bytes | 322.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:karenmind/hyperblog.git
+   e6a6566..46cb21a  master -> master
+
+jkaren@RAMOSCC MINGW64 ~/familia (master)
+$
